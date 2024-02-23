@@ -1,0 +1,16 @@
+#
+# Edit Lock-Stake file. CAUTION: Please do not change.
+#
+# Information about current Edit Lock Owner.
+#
+LockStakeVersion               1.1
+LoginName                      srivas95
+HostName                       ececomp3.ecn.purdue.edu
+ProcessIdentifier              116492
+ProcessCreationTime_UTC        1707851674
+ProcessCreationTime_Readable   Tue Feb 13 14:14:34 2024 EST
+AppIdentifier                  OA File System Design Manager
+OSType                         unix
+ReasonForPlacingEditLock       OpenAccess edit lock
+FilePathUsedToEditLock         /home/min/a/srivas95/Planar_ring_oscillator/Multi_planar_osc/schematic/sch.oa.cdslck
+TimeEditLocked                 Mon Feb 19 15:19:49 2024 EST
