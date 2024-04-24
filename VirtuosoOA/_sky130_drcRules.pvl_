@@ -1,0 +1,30 @@
+//
+//  Rule file generated on Thu Apr 4 15:57:54 2024
+//  by Calibre Interactive v2023.4_17.10    Mon Oct 2 13:57:41 PDT 2023
+//
+//      *** PLEASE DO NOT MODIFY THIS FILE ***
+//
+//
+
+//
+// If this rule file is run directly from the command line,
+// to set the environment correctly for database translation,
+// please set the value of environment variable
+// MGC_CALIBRE_DB_READ_OPTIONS to:
+//
+// -rundir /home/min/a/srivas95/sky130_cds/VirtuosoOA -viewName layout -abortOnEmptyPCell
+//
+
+LAYOUT PATH "sky130_osu_sc_t18"
+LAYOUT SYSTEM OA
+LAYOUT PRIMARY "sky130_osu_sc_18T_ms__ring_oscillator"
+
+DRC SUMMARY REPORT "drc.summary" REPLACE HIER
+
+DRC MAXIMUM RESULTS 1000
+
+DRC MAXIMUM VERTEX 4096
+
+DRC ICSTATION YES
+
+INCLUDE "/home/min/a/srivas95/sky130_cds/VirtuosoOA/sky130_drcRules.pvl"

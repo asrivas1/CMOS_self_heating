@@ -1,0 +1,931 @@
+    1  pwd
+    2  cd .ssh/
+    3  scp id_rsa.pub srivas95@ececomp.ecn.purdue.edu:temporary-public-key-file.txt
+    4  ssh srivas95@ececomp.ecn.purdue.edu
+    5  hostname
+    6  ssh asicfab
+    7  ssh socket11/asicfab
+    8  ssh socet11@asicfab
+    9  pwd
+   10  scp id_rsa.pub socet11@asicfab.ecn.purdue.edu:temporary-public-key-file.txt
+   11  export PS1="$(pwd) \$"
+   12  cd .ssh/
+   13  scp id_rsa.pub socet11@asicfab.ecn.purdue.edu:temporary-public-key-file.txt
+   14  ssh socetXX@asicfab.ecn.purdue.edu
+   15  ssh socet11@asicfab.ecn.purdue.edu
+   16  ssh socet11@asicfab
+   17  ssh socet11@asicfabu
+   18  exit
+   19  pwd
+   20  code&
+   21  la
+   22  ls
+   23  ls -al
+   24  cd CMOS_self_heating/
+   25  LS
+   26  ls
+   27  cd openlane/
+   28  ls
+   29  tree
+   30  cd user_proj
+   31  ls
+   32  cd user_proj_w
+   33  cd user_proj_example/
+   34  ls
+   35  cd ..
+   36  cd
+   37  ls
+   38  cd CMOS_self_heating/
+   39  ls
+   40  git clone --recursive https://github.com/stineje/sky130_cds.git
+   41  git submodule update --init --recursive
+   42  ls
+   43  pwd
+   44  cd sky130_cds/
+   45  git submodule update --init --recursive
+   46  git branch
+   47  ls
+   48  cat synth/genus_script.tcl 
+   49  ls
+   50  ls VirtuosoOA/
+   51  ls
+   52  ls sky130_osu_sc_t12/
+   53  ls
+   54  ls spice_models/
+   55  ls spice_models/Models
+   56  ls
+   57  cd spice_models/
+   58  ls
+   59  ls LVS\ Models/
+   60  ls LVS\ Models/12T_hs/
+   61  cat LVS\ Models/12T_hs/sky130_osu_sc_12T_hs__and2_2.spice 
+   62  gvim LVS\ Models/12T_hs/sky130_osu_sc_12T_hs__and2_2.spice 
+   63  ls
+   64  cd ..
+   65  ls
+   66  ls LVS
+   67  gvim LVS/README.md 
+   68  ls
+   69  cd LVS
+   70  ls
+   71  gvim README.md 
+   72  cd ..
+   73  ls
+   74  ls DRC/
+   75  find . -name "*.gds"
+   76  ls
+   77  ls sky130_osu_sc_t12/
+   78  ls sky130_osu_sc_t12/12T_hs/
+   79  which virtuOSO
+   80  which virtuoso
+   81  module keyword cadence
+   82  pwd
+   83  groups
+   84  module load cadence/virtuoso
+   85  which virtuoso
+   86  pwd
+   87  cd /package/eda/cadence/IC231/doc/
+   88  grep "pdk"
+   89  ls
+   90  cd /home/min/a/srivas95/CMOS_self_heating/sky130_cds
+   91  virtuoso &
+   92  export PS1="\\w:\$(git branch 2>/dev/null | grep '^*' | colrm 1 2)\$ "
+   93  cd ~
+   94  pwd
+   95  history
+   96  sudo apt-get install docker.io
+   97  pwd
+   98  cd Planar_ring_oscillator/
+   99  ls -la
+  100  pwd
+  101  virtuoso &
+  102  cd ~
+  103  virtuoso &
+  104  module load cadence/virtuoso
+  105  virtuoso&
+  106  pwd
+  107  sudo apt install python3
+  108  module load python3
+  109  git clone https://github.com/RTimothyEdwards/magic
+  110  cd magic/
+  111  ./configure
+  112  make
+  113  sudo make install
+  114  pwd
+  115  ./configure --enable-sky130-pdk
+  116  make
+  117  sudo make install
+  118  cd /usr/
+  119  pwd
+  120  cd local/share/pdk/
+  121  cd local/share/
+  122  ls -la
+  123  pwd
+  124  cd ~
+  125  git clone git@github.com:efabless/openlane2.git
+  126  ls -la
+  127  cd openlane2/
+  128  ls -la
+  129  cd openlane/
+  130  ls -la
+  131  cd open_pdks_rev 
+  132  cd open_pdks_rev
+  133  cd ..
+  134  find sky
+  135  pwd
+  136  git submodule update --init --recursive
+  137  git clone git@github.com:stineje/sky130_cds.git
+  138  cd sky130_cds/
+  139  git submodule update --init --recursive
+  140  cd synth/
+  141  pwd
+  142  ls -la
+  143  virtuoso &
+  144  export PS1="\\w:\$(git branch 2>/dev/null | grep '^*' | colrm 1 2)\$ "
+  145  pwd
+  146  cd CMOS_self_heating/
+  147  git remote add ef-repo ssh://git@repositories.efabless.com/asrivas1/CMOS_self_heating.git
+  148  git remote -v
+  149  git push -u ef-repo main
+  150  git add /home/min/a/srivas95/Planar_ring_oscillator
+  151  cp -r /home/min/a/srivas95/Planar_ring_oscillator .
+  152  ls -la
+  153  git add Planar_ring_oscillator/
+  154  git commit -m "Initial design commit"
+  155  git push
+  156  git status
+  157  git remote -v
+  158  git status
+  159  git push -u ef-repo main
+  160  git status
+  161  cd gds
+  162  cp -r /home/min/a/srivas95/Planar_ring_oscillator Planar_ring_oscillator_gds
+  163  git add
+  164  git add .
+  165  git add -a
+  166  git add -A
+  167  git commit -m "Into gds folder"
+  168  git status
+  169  git push
+  170  git status
+  171  git push -u ef-repo main
+  172  virtuoso &
+  173  sudo apt install python3
+  174  cd ..
+  175  ls -la
+  176  code &
+  177  virtuoso &
+  178  module load cadence/virtuoso
+  179  virtuoso&
+  180  pwd
+  181  cd CMOS_self_heating/
+  182  ls -la
+  183  virtuoso&
+  184  cd sky130_
+  185  find sky130_
+  186  cd sky130_cds/
+  187  ls -la
+  188  virtuoso&
+  189  pwd
+  190  cd ..
+  191  ls -la
+  192  pwd
+  193  cp -r ../Planar_ring_oscillator/ .
+  194  cd Planar_ring_oscillator/
+  195  ls -la
+  196  pwd
+  197  cd ../sky130_pdk/
+  198  ls -la
+  199  cd ../sky130_cds/
+  200  ls -la
+  201  virtuoso&
+  202  ls
+  203  pwd
+  204  cd ~/Do
+  205  cd ~/Downloads/
+  206  ls
+  207  unzip gpdk045_v_5_0.7z 
+  208  7za
+  209  7za x gpdk045_v_5_0.7z 
+  210  ls
+  211  cd gpdk045_v_5_0
+  212  ls
+  213  virtuso &
+  214  virtuoso &
+  215  pwd
+  216  cd ../../CMOS_self_heating/
+  217  ls -la
+  218  cd sky130_cds/
+  219  ls -la
+  220  virtuoso&
+  221  gvim cds.lib 
+  222  pwd
+  223  git submodule update --init --recursive
+  224  cd synth/
+  225  ls -la
+  226  cd hdl/
+  227  ls -la
+  228  pwd
+  229  cd ..
+  230  pwd
+  231  vim genus_script.tcl 
+  232  ls
+  233  cd
+  234  gvim .bashrc
+  235  exit
+  236  ssh socet11@asicfab
+  237  exit
+  238  code &
+  239  pwd
+  240  code &
+  241  exit
+  242  ssh socet11@asicfab
+  243  exit
+  244  ls
+  245  cd sky130_cds/
+  246  ls
+  247  cd synth/
+  248  gvim mult_seq.vh 
+  249  grep -nr "g2"
+  250  gvim mult_seq.vh 
+  251  cd ..
+  252  find . -name "mult_seq"
+  253  find . -name "*mult_seq*"
+  254  cd synth/
+  255  gvim genus_script.tcl 
+  256  cd ..
+  257  cd sky130_osu_sc_t18/18T_ms/lib
+  258  ls
+  259  gvim sky130_osu_sc_18T_ms_TT_1P8_25C.ccs.lib 
+  260  cd ..
+  261  find . -name "*cds.lib*"
+  262  cd VirtuosoOA/
+  263  gvim cds.lib 
+  264  module load virtuoso
+  265  module load cadence/virtuoso
+  266  virtuoso &
+  267  ls
+  268  git clone --recursive https://github.com/stineje/sky130_cds.git
+  269  quota -u srivas95
+  270  pwd
+  271  ls
+  272  rm -f openlane2/
+  273  rm -r openlane2/
+  274  rm -rf openlane2/
+  275  cd CMOS_self_heating/
+  276  ls -la
+  277  cd ../Planar_ring_oscillator/
+  278  ls -la
+  279  cd ../CMOS_self_heating/
+  280  cp -r ../Planar_ring_oscillator/ Planar_copied
+  281  ls -la
+  282  cd ..
+  283  rm -r Planar_ring_oscillator/
+  284  ls -la
+  285  df -T
+  286  df -H
+  287  ls
+  288  cd CMOS_self_heating/
+  289  ls
+  290  ls sky130_cds/
+  291  rm -rf sky130_cds/
+  292  rm -rf sky130_pdk/
+  293  cd ..
+  294  rm -rf sky130_cds/
+  295  git clone --recursive https://github.com/stineje/sky130_cds.git
+  296  cd sky130_cds/;git submodule update --init --recursive
+  297  git submodule update --init --recursive
+  298  cd synth/
+  299  ls
+  300  cd hdl/
+  301  ls
+  302  gvim ring_oscillator.sv
+  303  code ring_oscillator.sv &
+  304  gvim
+  305  ls -al
+  306  cd ..
+  307  ls -al
+  308  gvim genus_script.tcl 
+  309  cd ..
+  310  find . -name "mult_*"
+  311  cd synth/
+  312  ls
+  313  make synth
+  314  module load cadence/genus
+  315  genus
+  316  which genus
+  317  make synth
+  318  ls
+  319  ls -l
+  320  cd reports/
+  321  ls
+  322  cd ..
+  323  gvim synth.log 
+  324  gvim constraints_top.sdc 
+  325  make synth
+  326  module unload
+  327  module unload cadence/genus
+  328  which genus
+  329  module load cadence/ddi
+  330  which genus
+  331  make synth
+  332  cd reports/
+  333  ls
+  334  ls -al
+  335  rm ring*
+  336  ls -la
+  337  cd ..
+  338  ls -al
+  339  rm ring*
+  340  ls -al
+  341  rm synth.log 
+  342  make synth
+  343  ls -al
+  344  gvim ring_oscillator.vh
+  345  gvim hdl/mult_seq.sv 
+  346  gvim mult_seq.vh 
+  347  gvim ring_oscillator.vh
+  348  gvim genus_script.tcl 
+  349  make synth
+  350  gvim ring_oscillator.vh
+  351  gvim hdl/ring_oscillator.sv 
+  352  gvim genus_script.tcl 
+  353  make synth
+  354  gvim ring_oscillator.vh 
+  355  gvim hdl/ring_oscillator.sv 
+  356  gvim genus_script.tcl 
+  357  make synth
+  358  gvim ring_oscillator.vh 
+  359  gvim genus_script.tcl 
+  360  make synth
+  361  gvim hdl/ring_oscillator.sv 
+  362  gvim genus_script.tcl 
+  363  make synth
+  364  gvim ring_oscillator.vh 
+  365  gvim hdl/ring_oscillator.sv 
+  366  gvim genus_script.tcl 
+  367  genus
+  368  gvim genus_script.tcl 
+  369  genus
+  370  gvim ring_oscillator.vh 
+  371  gvim hdl/ring_oscillator.sv 
+  372  genus
+  373  gvim myscr.tcl
+  374  genus myscr.tcl 
+  375  genus
+  376  module unload cadence/ddi
+  377  which genus
+  378  module load cadence/genus
+  379  genus
+  380  gui_show
+  381  genus
+  382  gvim ring_oscillator.vh 
+  383  genus
+  384  gvim hdl/ring_oscillator.sv 
+  385  genus
+  386  cd ../pnr/
+  387  ls
+  388  gvim setup.tcl 
+  389  ls ../synth/
+  390  gvim ../synth/ring_oscillator.sd
+  391  gvim ../synth/ring_oscillator.sdc 
+  392  gvim innovus_config.tcl 
+  393  init
+  394  make init
+  395  module load cadence/innovus
+  396  make init
+  397  ls -la
+  398  cd LOG
+  399  ls -al
+  400  gvim init.log
+  401  cd ..
+  402  grep -nr "-layer 0"
+  403  grep -lr "-layer 0"
+  404  grep -nr "setAddStripeMode -stacked_via_top_layer 0 -stacked_via_bottom_layer 0"
+  405  ls
+  406  cd SCRIPTS/
+  407  ls
+  408  cd INNOVUS/
+  409  ls
+  410  cd ../..
+  411  cd ..
+  412  git reset --hard
+  413  cd hdl
+  414  cd synth/
+  415  ls
+  416  gvim genus
+  417  gvim genus_script.tcl 
+  418  make synt
+  419  make synth
+  420  cd ../pnr
+  421  make init
+  422  init
+  423  make init
+  424  gvim Makefile 
+  425  pwd
+  426  cd ..
+  427  make
+  428  cd pnr/
+  429  make
+  430  make clean
+  431  rm -rf LOG/
+  432  make init
+  433  make place
+  434  make cts
+  435  make help
+  436  make postcts_hold
+  437  make help
+  438  make route
+  439  make help
+  440  make postroute
+  441  make signoff
+  442  innovus
+  443  make clean
+  444  cd ..
+  445  cd synth/
+  446  cd hdl
+  447  cp mult_seq.sv mult_seq_original.sv 
+  448  gvim mult_seq.sv 
+  449  cd ..
+  450  make synth
+  451  gvim mult_seq.vh 
+  452  cd ..
+  453  cd pnr/
+  454  make clean
+  455  rm -rf LOG/
+  456  make init
+  457  make place
+  458  make cts
+  459  grep -nr 'setOptMode -usefulSkewCCOpt standard"
+  460  "
+  461  grep -nr 'setOptMod'
+  462  gvim Makefile 
+  463  gvim SCRIPTS/gen_flow.tcl 
+  464  gvim setup.tcl 
+  465  make clean
+  466  cd ..
+  467  cd synth/
+  468  ls
+  469  mv mult_seq.vh mult_seq_.vh
+  470  gvim hdl/mult_seq.sv 
+  471  make synth
+  472  gvim mult_seq.vh 
+  473  gvim hdl/mult_seq.sv 
+  474  make clean
+  475  make synth
+  476  gvim mult_seq.vh 
+  477  gvim hdl/mult_seq.sv 
+  478  make clean
+  479  make synth
+  480  gvim mult_seq.vh 
+  481  gvim mult_seq_.vh 
+  482  cd ..
+  483  cd pnr/
+  484  make clean
+  485  make init
+  486  make place
+  487  make cts
+  488  make postcts_hold
+  489  make route
+  490  make postroute
+  491  make signoff
+  492  innovus
+  493  gvim ../synth/mult_seq.vh 
+  494  ssh socet11@asicfab
+  495  pwd
+  496  ssh socet11@asicfab
+  497  pwd
+  498  ssh
+  499  ssh socet11@asicfab
+  500  ssh srivas95@ececomp.ecn.purdue.edu
+  501  ls
+  502  cd CMOS_self_heating/
+  503  ls
+  504  cd sky130_cds/
+  505  ls
+  506  cd sky130_osu_sc_t12/
+  507  ls
+  508  cd 12T_ms/
+  509  ls
+  510  cd lib
+  511  ls
+  512  cd ..
+  513  virtuoso &
+  514  module load cadence/virtuoso
+  515  virtuoso &
+  516  ls
+  517  pwd
+  518  cd ../../..
+  519  ls
+  520  pwd
+  521  find . -name "*.tf"
+  522  ls /package/eda/cadence/IC231/tools.lnx86/dfII/etc/cdslib/artist/functional
+  523  ls /package/eda/cadence/IC231/tools.lnx86/dfII/etc/cdslib/artist/functional/../analogLib/
+  524  pwd
+  525  cd sky130_cds/
+  526  find . -name "*.il"
+  527  find . -name "*.lib"
+  528  gvim cds.lib 
+  529  ls
+  530  pwd
+  531  virtuoso &
+  532  ls /home/min/a/srivas95/CMOS_self_heating/sky130_cds/sky130_osu_sc_t12/12T_ms/skyw130
+  533  ls sky130_osu_sc_t12/12T_ms/
+  534  virtuoso &
+  535  ls /package/eda/cadence/IC231/tools.lnx86/dfII/etc/cdslib/artist/functional
+  536  ls /package/eda/cadence/IC231/tools.lnx86/dfII/etc/cdslib/artist/functional/divider/
+  537  ls /package/eda/cadence/IC231/tools.lnx86/dfII/etc/cdslib/artist/functional/divider/symbol
+  538  ls
+  539  ls sky130_osu_sc_t12/12T_ms/
+  540  ls sky130_osu_sc_t12/12T_ms/lib
+  541  ls sky130_osu_sc_t12/12T_ms/
+  542  ls sky130_osu_sc_t12/12T_ms/spice/
+  543  ls sky130_osu_sc_t12/12T_ms/
+  544  ls sky130_osu_sc_t12/12T_ms/magic/
+  545  ls sky130_osu_sc_t12/12T_ms/
+  546  gvim sky130_osu_sc_t12/12T_ms/cds.lib 
+  547  ls VirtuosoOA/
+  548  ls VirtuosoOA/sky130_osu_sc_t12/
+  549  ls VirtuosoOA/sky130_osu_sc_t12/sky130_osu_sc_12T_ms__addf_l/
+  550  ls VirtuosoOA/sky130_osu_sc_t12/sky130_osu_sc_12T_ms__addf_l/layout/
+  551  virtuoso &
+  552  code &
+  553  cd ..
+  554  pwd
+  555  module spider
+  556  module spider cadence/calibre
+  557  module spider cadence/assura
+  558  pwd
+  559  cd sky130_cds/VirtuosoOA/
+  560  ls -la
+  561  cd sky130_osu_sc_t18/
+  562  pwd
+  563  cd 
+  564  cd sky130_cds/VirtuosoOA/
+  565  tkdiff _sky130_drcRules.pvl_ sky130_drcRules.pvl 
+  566  tkdiff sky130_drcRules.pvl ../DRC/sky130_drcRules.pvl 
+  567  cp -r /package/asicfab/CopyBuffer/socet99/calibre_runsets .
+  568  ls -la
+  569  cd ..
+  570  ls -la
+  571  find *calibre*.*
+  572  cd ../
+  573  cd ../CMOS_self_heating/
+  574  git status
+  575  find magcic
+  576  find magic
+  577  ls -la
+  578  cd ../magic/
+  579  ls -la
+  580  cd ..
+  581  module load siemens/calibre
+  582  calibre &
+  583  pwd
+  584  cd sky130_cds/
+  585  ls -la
+  586  cd VirtuosoOA/
+  587  ls -la
+  588  vim cds.lib 
+  589  vim sky130_drcRules.pvl 
+  590  vim _sky130_drcRules.pvl_ 
+  591  vim cds.lib 
+  592  ls -la
+  593  cd ..
+  594  ls -la
+  595  cd VirtuosoOA/
+  596  ls -la
+  597  cp -r ../skywater-pdk-libs-sky130_fd_pr
+  598  cp -r ../skywater-pdk-libs-sky130_fd_pr .
+  599  ls -la
+  600  code cds.lib &
+  601  virtuoso &
+  602  virtuoso&
+  603  module load cadence/virtuoso
+  604  virtuoso&
+  605  vim cds.lib 
+  606  find *calibre*.*
+  607  pwd
+  608  cp -r /package/asicfab/CopyBuffer/socet99/calibre_runsets
+  609  cp -r /package/asicfab/CopyBuffer/socet99/calibre_runsets .
+  610  pwd
+  611  ls -la
+  612  cd sky130_cds/
+  613  ls -la
+  614  cd VirtuosoOA/
+  615  ls -la
+  616  gvim cds.lib 
+  617  virtuoso &
+  618  module load cadence/virtuoso
+  619  virtuoso &
+  620  find magic
+  621  ls -la
+  622  cd ..
+  623  find magic
+  624  ls -la
+  625  cd DRC/
+  626  ls -la
+  627  module load cadence/assura
+  628  assura &
+  629  assura -h
+  630  ls -la
+  631  cd 
+  632  cd sky130_cds/
+  633  ls -la
+  634  cd LVS/
+  635  ls -la
+  636  vim README.md 
+  637  cd ..
+  638  ls -la
+  639  cd VirtuosoOA/
+  640  ls -la
+  641  module load cadence/assura
+  642  assura -cds.lib
+  643  assura &
+  644  assura rsfName cds.lib 
+  645  module load synopsis/calibre
+  646  module load synopsys/calibre
+  647  module load siemens/calibre
+  648  calibre &
+  649  address
+  650  ls -la
+  651  cd ../DRC/
+  652  module load siemens/calibre
+  653  calibre &
+  654  calibre --with-library sky130_drcRules.pvl 
+  655  calibre -h
+  656  calibre -gui -drc -runset /home/min/a/srivas95/sky130_cds/VirtuosoOA/sky130_osu_sc_t18
+  657  cd ../VirtuosoOA/
+  658  module load siemens/calibre
+  659  calibre version
+  660  calibre -version
+  661  module spider siemens/calibre
+  662  module spider siemens/calibre/2024.2
+  663  cd ~
+  664  pdk MITLL90
+  665  find pdk*
+  666  find pdk*.*
+  667  calibre /home/min/a/srivas95/sky130_cds/VirtuosoOA/sky130_osu_sc_t18
+  668  /home/min/a/srivas95/sky130_cds/VirtuosoOA/sky130_osu_sc_t18
+  669  calibre -drc /home/min/a/srivas95/sky130_cds/VirtuosoOA/sky130_osu_sc_t18
+  670  calibre -drc /home/min/a/srivas95/sky130_cds/VirtuosoOA/sky130_osu_sc_t18/sky130_osu_sc_18T_ms__ring_oscillator/
+  671  calibre -drc sky130_cds/VirtuosoOA/sky130_osu_sc_t18/sky130_osu_sc_18T_ms__ring_oscillator/
+  672  calibre -gui
+  673  pwd
+  674  cd sky130_cds/VirtuosoOA/
+  675  virtuoso&
+  676  gvim tmp.il
+  677  pvs --version
+  678  pvs -version
+  679  pvs -help
+  680  pvs --help
+  681  which pvs
+  682  virtuoso &
+  683  groups
+  684  module load cadence/pvs
+  685  pwhich pvs
+  686  which pvs
+  687  virtuoso &
+  688  ls ../DRC
+  689  mkdir ../DRC/log_dump
+  690  cd ../
+  691  find . -name "*.lib*"
+  692  find . -name "*.rul*"
+  693  cd 
+  694  cd /package/asicfab/CopyBuffer/socet99/calibre_runsets
+  695  cd /package/asicfab/CopyBuffer/socet99/
+  696  pwd
+  697  find *calibre*.*
+  698  pwd
+  699  module spider siemens
+  700  module load siemens/calibre
+  701  find *calibre*.*
+  702  locate *siemens*.*
+  703  locate *calibre*.*
+  704  calibre_runsets
+  705  find / -name *calibre*.*
+  706  find / -name calibre_drc.rul
+  707  pip3 install openlane --srivas95
+  708  pip3 install openlane --user
+  709  find magic
+  710  cd magic/
+  711  ls -la
+  712  cd drc/
+  713  ls -la
+  714  cd ../
+  715  cd ..
+  716  magic -rcfile /CMOS_self_heating/openlane/sky130_cds/VirtuosoOA//sky130_osu_sc_t18/sky130_osu_sc_18T_ms__ring_oscillator 
+  717  cd magic/
+  718  magic -rcfile /CMOS_self_heating/openlane/sky130_cds/VirtuosoOA//sky130_osu_sc_t18/sky130_osu_sc_18T_ms__ring_oscillator &
+  719  magic -rcfile ../CMOS_self_heating/openlane/sky130_cds/VirtuosoOA//sky130_osu_sc_t18/sky130_osu_sc_18T_ms__ring_oscillator &
+  720  magic -rcfile ../CMOS_self_heating/openlane/sky130_cds/VirtuosoOA/sky130_osu_sc_t18/sky130_osu_sc_18T_ms__ring_oscillator/ &
+  721  magic -rcfile ../CMOS_self_heating/openlane/sky130_cds/VirtuosoOA/sky130_osu_sc_t18/sky130_osu_sc_18T_ms__ring_oscillator/layout/layout.oa &
+  722  ls -la
+  723  code README.Tcl &
+  724  magic tut1
+  725  ./configure
+  726  make
+  727  make install
+  728  ls -la
+  729  cd tcltk/
+  730  ls -la
+  731  cd ..
+  732  make
+  733  make install
+  734  cd /package/asicfab/CopyBuffer/socet99/
+  735  ssh socet11@asicfab
+  736  cd ../../CMOS_self_heating/
+  737  git status
+  738  ls -l
+  739  ls -lA
+  740  cd openlane/
+  741  ls -la
+  742  cp -r /home/min/a/srivas95/sky130_cds/ .repo_sky130_cds
+  743  ls -la
+  744  git commit -m "With pdk"
+  745  git add -a
+  746  git add -A
+  747  git status
+  748  export OPENLANE_ROOT=~/asic/openlane
+  749  export PDK_ROOT=~/asic/pdk
+  750  cd 8-bit-asic/
+  751  ls -la
+  752  cd .repo_sky130_cds/
+  753  ls -la
+  754  cd ..
+  755  mv -r .repo_sky130_cds/ repo_sky130_cds/
+  756  mv .repo_sky130_cds/ repo_sky130_cds/
+  757  ls -la
+  758  cd ..
+  759  ls -la
+  760  git remote -v
+  761  git remote add ef-repo ssh://git@repositories.efabless.com/asrivas1/CMOS_self_heating.git
+  762  git remote -v
+  763  git status
+  764  git add --a
+  765  git status
+  766  git commit -m "New design using Skywater PDK, sky_cds130/*18*/ring_oscillator"
+  767  git push -u ef-repo main
+  768  git status
+  769  git add openlane/repo_sky130_cds/
+  770  git push
+  771  git push -u ef-repo main
+  772  ls -la
+  773  cp -r /home/min/a/srivas95/sky130_cds/ .
+  774  ls -la
+  775  git rm Planar_copied/
+  776  rm -r Planar_copied/
+  777  ls -la
+  778  cd openlane/repo_sky130_cds/
+  779  ls -la
+  780  cd sky130_osu_sc_t18/
+  781  ls -la
+  782  cd 18T_ms/
+  783  ls -la
+  784  cd ../../../
+  785  cd repo_sky130_cds/VirtuosoOA/
+  786  ls -la
+  787  cd sky130_osu_sc_t18/
+  788  ls -la
+  789  git add sky130_osu_sc_18T_ms__ring_oscillator/
+  790  git status
+  791  git remote -v
+  792  git push -u ef-repo main
+  793  git status
+  794  cd ../../../..
+  795  git remote -v
+  796  git push -u ef-repo main
+  797  ls -la
+  798  cd sky130_cds/
+  799  ls -la
+  800  cd VirtuosoOA/
+  801  ls -la
+  802  cd sky130_osu_sc_t18/sky130_osu_sc_18T_ms__ring_oscillator/
+  803  ls -la
+  804  git cd ../../../../../..
+  805  cd ../../..
+  806  cd ..
+  807  git add /sky130_cds/VirtuosoOA/sky130_osu_sc_t18/
+  808  git add sky130_cds/VirtuosoOA/sky130_osu_sc_t18/
+  809  git push
+  810  git push -u ef-repo main
+  811  git status
+  812  git add sky130_cds/VirtuosoOA/
+  813  git -rm sky130_cds/VirtuosoOA/skywater-pdk-libs-sky130_fd_pr/
+  814  rm sky130_cds/VirtuosoOA/skywater-pdk-libs-sky130_fd_pr/
+  815  rm -r sky130_cds/VirtuosoOA/skywater-pdk-libs-sky130_fd_pr/
+  816  git add sky130_cds/VirtuosoOA/
+  817  git commit -m "Design using skywater PDK"
+  818  git push -u ef-repo main
+  819  ls -la
+  820  cd sky130_cds/
+  821  ls -la
+  822  cd ..
+  823  rm -r Planar_ring_oscillator/
+  824  cd openlane/
+  825  rm -r repo_sky130_cds/
+  826  rm -rf repo_sky130_cds/
+  827  ls -la
+  828  cp -r ../sky130_cds/ .
+  829  git add sky130_cds/
+  830  git commit -m "adding project in openlane folder"
+  831  git push -u ef-repo main
+  832  pwd
+  833  git status
+  834  git add sky130_cds/
+  835  git status
+  836  git commit -m "adding other repo files"
+  837  git add sky130_cds/.gitmodules 
+  838  git add sky130_cds/DISCLAIMER 
+  839  git add sky130_cds/DRC/
+  840  git add sky130_cds/LICENSE 
+  841  git add sky130_cds/LVS/
+  842  git add sky130_cds/PEX/
+  843  git add sky130_cds/README.md 
+  844  git status
+  845  git remote -v
+  846  git status
+  847  git add sky130_cds/
+  848  git status
+  849  git commit -m "adding additional files"
+  850  cd sky130_cds/VirtuosoOA/sky130_osu_sc_t18/sky130_osu_sc_18T_ms__ring_oscillator/
+  851  ls -la
+  852  module load cadence/virtuoso
+  853  virtuoso &
+  854  cd ../..
+  855  virtuoso &
+  856  cd sky130_osu_sc_t18/sky130_osu_sc_18T_ms__ring_oscillator/
+  857  cd layout/
+  858  MAGIC TUT
+  859  magic tut
+  860  magic tut1
+  861  more .bashrc
+  862  ls -als
+  863  more panic.log.ececomp2.ecn.purdue.edu.14976 
+  864  more .bashrc
+  865  code
+  866  code &
+  867  ssh socet11@asicfab
+  868  ls -la
+  869  mkdir CMOS_git_repo
+  870  cd CMOS_
+  871  cd CMOS_git_repo/
+  872  git clone --recursive git@github.com:asrivas1/CMOS_self_heating.git
+  873  ls -la
+  874  cd CMOS_self_heating/
+  875  ls -la
+  876  cd openlane/
+  877  ls -la
+  878  cd ..
+  879  mkdir layout_folder
+  880  cp -r ../../layout* layout_folder/
+  881  cd layout_folder/
+  882  ls -la
+  883  cd ../
+  884  git add ./layout_folder/
+  885  git commit -m "added layout for ring osc"
+  886  git push
+  887  cd ~
+  888  ls -la
+  889  cp sky130_osu_sc_18T_ms__ring_oscillator_9.gds CMOS_git_repo/CMOS_self_heating/
+  890  cp sky130_osu_sc_18T_ms__ring_oscillator_9.gds CMOS_git_repo/CMOS_self_heating/layout_folder/
+  891  git status
+  892  cd CMOS_git_repo/
+  893  git status
+  894  cd CMOS_self_heating/
+  895  git status
+  896  git add sky130_osu_sc_18T_ms__ring_oscillator_9.gds 
+  897  git commit -m "GDS"
+  898  git push
+  899  cd ../..
+  900  ls -la
+  901  cp layer.map CMOS_git_repo/CMOS_self_heating/
+  902  cp xStrmOut_layerMap.txt CMOS_git_repo/CMOS_self_heating/
+  903  find *_10.gds
+  904  cp *_10.gds CMOS_git_repo/CMOS_self_heating/layout_folder/
+  905  find xStrmOut_layerMap.txt 
+  906  cp xStrmOut_layerMap.txt CMOS_git_repo/CMOS_self_heating/layout_folder/
+  907  ls -la
+  908  cp -r sky130_osu_sc_18T_ms__ring_oscillator CMOS_self_heating/
+  909  cd CMOS_
+  910  cd CMOS_self_heating/
+  911  ls -la
+  912  cd openlane/
+  913  ls -la
+  914  cd sky130_cds/
+  915  ls -la
+  916  cd VirtuosoOA/
+  917  ls -la
+  918  cd sky130_osu_sc_t18/sky130_osu_sc_18T_ms__ring_oscillator/
+  919  cd ..
+  920  cp -r ../../../../sky130_osu_sc_18T_ms__ring_oscillator/ .
+  921  ls -la
+  922  find sky130_osu_sc_18T_ms__ring_oscillator/
+  923  cd sky130_osu_sc_18T_ms__ring_oscillator/
+  924  ls -la
+  925  git status
+  926  cd ..
+  927  git add
+  928  git status
+  929  ls sky130_osu_sc_18T_ms__ring_oscillator/
+  930  history -> hist.txt
+  931  history > hist.txt

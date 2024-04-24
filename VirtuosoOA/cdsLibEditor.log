@@ -1,0 +1,10 @@
+\o Program:		@(#)$CDS: cdsLibEditor version 6.1.8 - CAT38.23 06/08/2023 01:11 (sjfdcl1184) $
+\o Sub version:		sub-version  p200 
+\o Arguments:		-cdslib /home/min/a/srivas95/sky130_cds/VirtuosoOA/cds.lib -mpssession virtuoso38172 -mpshost ececomp2.ecn.purdue.edu -mpsversion 23.1 
+\o Working Directory:	ececomp2.ecn.purdue.edu:/home/min/a/srivas95/sky130_cds/VirtuosoOA
+\o 64-bit offsets
+\a nrSetWindowVisibility(cdsLibEditor "show")
+\o Qt version: 		5.15.9
+\a nrSetCurrentWindow(cdsLibEditor)
+\a nrResizeWindow(cdsLibEditor list(515 195 500 400))
+\a exit(0)

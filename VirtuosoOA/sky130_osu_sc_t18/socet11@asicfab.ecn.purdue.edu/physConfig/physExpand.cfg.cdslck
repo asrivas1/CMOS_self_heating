@@ -1,0 +1,16 @@
+#
+# Edit Lock-Stake file. CAUTION: Please do not change.
+#
+# Information about current Edit Lock Owner.
+#
+LockStakeVersion               1.1
+LoginName                      srivas95
+HostName                       ececomp4.ecn.purdue.edu
+ProcessIdentifier              104790
+ProcessCreationTime_UTC        1713457710
+ProcessCreationTime_Readable   Thu Apr 18 12:28:30 2024 EDT
+AppIdentifier                  /package/eda/cadence/IC231/tools/dfII/bin/64bit/virtuoso
+OSType                         lnx86
+ReasonForPlacingEditLock       
+FilePathUsedToEditLock         /home/min/a/srivas95/CMOS_self_heating/openlane/sky130_cds/VirtuosoOA/sky130_osu_sc_t18/sky130_osu_sc_18T_ms__ring_oscillator/physConfig/physExpand.cfg
+TimeEditLocked                 Thu Apr 18 12:28:50 2024 EDT

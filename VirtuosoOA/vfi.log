@@ -1,0 +1,39 @@
+
+ *******************************************************************
+ *   Copyright (c)  Cadence Design Systems, Inc.  1996 - 2021.     *
+ *                     All rights reserved.                        *
+ *                                                                 *
+ *                                                                 *
+ *                                                                 *
+ * This program contains confidential and trade secret information *
+ * of Cadence Design Systems, Inc. and is protected by copyright   *
+ * law and international treaties.  Any reproduction, use,         *
+ * distribution or disclosure of this program or any portion of it,*
+ * or any attempt to obtain a human-readable version of this       *
+ * program, without the express, prior written consent of          *
+ * Cadence Design Systems, Inc., is strictly prohibited.           *
+ *                                                                 *
+ *                 Cadence Design Systems, Inc.                    *
+ *                    2655 Seely Avenue                            *
+ *                   San Jose, CA 95134,  USA                      *
+ *                                                                 *
+ *                                                                 *
+ *******************************************************************
+
+@(#)$CDS: virtuoso version IC23.1-64b 06/21/2023 09:33 (cpgbld16) $
+sub-version  IC23.1-64b.43 
+Voltus-Fi v23.10-p093_1 
+
+Checkout of license "Voltus_Power_Integrity_Fi_XL" was successful
+
+Change in Process Info :
+  User time          = 4 seconds
+  System time        = 0 seconds
+  Children user time = 0 seconds
+  Children sys time  = 0 seconds
+  Virtual mem. size  = -5,685,248 bytes
+  Total alloc size   = 0 bytes
+  In use alloc size  = 0 bytes
+  Page fault w/o IO  = 15,339
+  Page fault w/  IO  = 2
+  No. of swaps       = 0

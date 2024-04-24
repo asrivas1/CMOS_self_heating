@@ -1,0 +1,53 @@
+********************************************************************************
+Product   : Virtuoso(R) XOasis Out
+Program   : @(#)$CDS: virtuoso version IC23.1-64b 06/21/2023 09:33 (cpgbld16) $
+          : sub-version  IC23.1-64b.43 
+Started at: 18-Apr-2024  16:30:10
+User Name : srivas95
+Host Name : ececomp4.ecn.purdue.edu
+Directory : /home/min/a/srivas95/CMOS_self_heating/openlane/sky130_cds/VirtuosoOA
+CADENCE Design Systems, Inc.
+********************************************************************************
+Info: Cellview Rev Num:99,  Tech Rev Num:59
+
+INFO (XOASIS-285): Performing automatic layer mapping because either the layer mapping information is not provided or the XOASIS_AUTO_LM value is used with the -layerMap option. Additionally, the  'xOasisOut_layerMap.txt' file has been generated and the mapping information has been added to it.
+
+Summary of Options :
+library                                 sky130_osu_sc_t18
+oasisFile                               sky130_osu_sc_18T_ms__ring_oscillator.oasis
+topCell                                 sky130_osu_sc_18T_ms__ring_oscillator
+view                                    layout
+virtualMemory
+
+INFO (XOASIS-81072): Translating stdVia master sky130/L1M1_C as "L1M1_C_CDNS_713472210840".
+INFO (XOASIS-81072): Translating stdVia master sky130/TPL1_C as "TPL1_C_CDNS_713472210841".
+INFO (XOASIS-81072): Translating stdVia master sky130/PYL1_C as "PYL1_C_CDNS_713472210842".
+INFO (XOASIS-81044): Translating design sky130_osu_sc_t18/sky130_osu_sc_18T_ms__inv_l/layout as "sky130_osu_sc_18T_ms__inv_l".
+INFO (XOASIS-81044): Translating design sky130_osu_sc_t18/sky130_osu_sc_18T_ms__ring_oscillator/layout as "sky130_osu_sc_18T_ms__ring_oscillator".
+WARNING (XOASIS-82025): You have not used the 'objectMap' option. The design has instance(s) of at least one of following OpenAccess objects: oaBlockage, oaBoundary, oaRow or oaMarker. Any information about these objects will not be translated into the generated oasis file. Use the 'objectMap' option to translate/preserve these objects using XOasis. For details on the 'objectMap' option, refer to the "Design Data Translator's Reference" guide for XOasis.
+
+Summary of Objects Translated:
+	Scalar Instances:                       25
+	Array Instances:                        0
+	Polygons:                               0
+	Rectangles:                             102
+	Paths:                                  0
+	Pathsegs:                               74
+	Text:                                   4
+	Lines:                                  0
+	Dots:                                   0
+	Arcs:                                   0
+	Donuts:                                 0
+	Ellipses:                               0
+	Boundaries:                             0
+	Area Blockages:                         0
+	Layer Blockages:                        0
+	Area Halos:                             0
+	Rows:                                   0
+	Markers:                                0
+	Custom Vias:                            0
+	Standard Vias                           12
+	Cells:                                  5
+
+Elapsed Time: 0.0s   User Time: 0.0s   CPU Time: 0.0s   Peak VM: 2355KB
+INFO (XOASIS-234): Translation completed. '0' error(s) and '1' warning(s) found.

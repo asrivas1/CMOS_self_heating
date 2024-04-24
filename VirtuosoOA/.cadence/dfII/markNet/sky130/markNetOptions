@@ -1,0 +1,14 @@
+# Do not remove or change these header lines.
+# markNetOptions file version 1.0
+viaLayers(
+met4 via4 met5 t
+met3 via3 met4 t
+met2 via2 met3 t
+met1 via met2 t
+li1 mcon met1 t
+poly licon1 li1 t
+tap licon1 li1 t
+)
+excludePurposes(
+annotate boundary error flight label warning
+)
